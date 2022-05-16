@@ -11,6 +11,5 @@ jobs:
           node-version: '18'
       - run: npm install istanbul --save-dev
       - run: npm run test
-      - run: npm run mischief
       - run: npm i c8 -g
       - run: c8 node foo.js
